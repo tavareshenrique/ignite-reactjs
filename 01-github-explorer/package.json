@@ -5,7 +5,8 @@
     "email": "ihenrits@gmail.com"
   },
   "scripts": {
-    "babel": "babel src/index.jsx --out-file dist/bundle.js"
+    "babel": "babel src/index.jsx --out-file dist/bundle.js",
+    "webpack:dev": "NODE_ENV=development yarn webpack"
   },
   "version": "1.0.0",
   "main": "index.js",
