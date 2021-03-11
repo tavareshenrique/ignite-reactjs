@@ -4,7 +4,7 @@ import { RepositoryItem } from "../RepositoryItem";
 
 import { IRepository } from "./@interfaces";
 
-import "../styles/repositories.scss";
+import "../../styles/repositories.scss";
 
 export function RepositoryList() {
   const [repositories, setRepositories] = useState<IRepository[]>([]);
