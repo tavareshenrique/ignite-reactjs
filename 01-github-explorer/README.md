@@ -4,10 +4,10 @@
 
 <p align="center">
    <a href="https://www.linkedin.com/in/tavareshenrique/">
-      <img alt="Henrique Tavares" src="https://img.shields.io/badge/-Henrique Tavares-4e5acf?style=flat&logo=Linkedin&logoColor=white" />
+      <img alt="Henrique Tavares" src="https://img.shields.io/badge/-Henrique Tavares-FFA700?style=flat&logo=Linkedin&logoColor=white" />
    </a>
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-4e5acf">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-FFA700">
 </p>
 
 > <b>Github Explorer</b> é o primeiro projeto criado no primeiro módulo da trilha de ReactJS do Ignite da [Rocketseat](https://github.com/Rocketseat). O projeto é para demonstrar a construção básica, do zero, de um projeto em React. No projeto é listado os repositórios da [Rocketseat](https://github.com/Rocketseat) utilizando a API do Github.
