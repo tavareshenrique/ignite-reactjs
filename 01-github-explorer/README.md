@@ -22,7 +22,7 @@
 
 - [Tecnologias](#computer-tecnologias)
 - [Executando](#construction_worker-executando)
-- [Desafio](#atom_symbol-desafio)
+- [Desafios](#atom_symbol-desafios)
 - [Autores](#computer-autores)
 - [Licença](#closed_book-licença)
 
@@ -72,9 +72,11 @@ $ yarn dev
 
 Acesse <http://localhost:8080> para ver o resultado.
 
-# :atom_symbol: Desafio
+# :atom_symbol: Desafios
 
 [Desafio 1](https://github.com/tavareshenrique/ignite-reactjs-desafio-1): desafio relacionado aos conceitos aprendidos nesse projeto.
+
+[Desafio 2](https://github.com/tavareshenrique/ignite-reactjs-desafio-2): desafio mais voltado para a parte de componentização.
 
 # :computer: Autores
 
