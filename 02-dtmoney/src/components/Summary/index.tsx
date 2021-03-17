@@ -4,7 +4,7 @@ import totalImg from "../../assets/total.svg";
 
 import { Container } from "./styles";
 
-function Summary() {
+export function Summary() {
   return (
     <Container>
       <div>
@@ -33,5 +33,3 @@ function Summary() {
     </Container>
   );
 }
-
-export default Summary;
