@@ -14,12 +14,14 @@
 
 # :pushpin: Conteúdo
 
-- [Projetos](#computer-projetos)
+- [Projetos](#rocket-projetos)
   - [Github Explorer](#github-explorer)
+- [Desafios](#atom_symbol-desafios)
+  - [Chapter I](#one-chapter-i)
 - [Autores](#computer-autores)
 - [Licença](#closed_book-licença)
 
-# :computer: Projetos
+# :rocket: Projetos
 
 ## Github Explorer
 
@@ -28,6 +30,14 @@
      <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/4c7f87360221a18410d3c19434bf6bef8afc3501/01-github-explorer/assets/img/logo.svg" alt="Github Explorer" width="280"/>
    </a>
 </p>
+
+# :atom_symbol: Desafios
+
+## :one: Chapter I
+
+[Desafio 1](https://github.com/tavareshenrique/ignite-reactjs-desafio-1): Desafio sobre os conceitos.
+
+[Desafio 2](https://github.com/tavareshenrique/ignite-reactjs-desafio-2): Desafio de componentização.
 
 # :computer: Autores
 
