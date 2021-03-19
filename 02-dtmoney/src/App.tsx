@@ -1,6 +1,8 @@
-import { useState } from "react";
+import React, { useState } from "react";
 
 import ReactModal from "react-modal";
+
+import { TransactionsProvider } from "./TransactionContext";
 
 import { Header } from "./components/Header";
 import { Dashboard } from "./components/Dashboard";
@@ -24,8 +26,8 @@ export function App() {
   }
 
   return (
-    <>
-      <Header onOpenNewTrnsactionModal={handleOpenNewTransactionModal} />
+    <TransactionsProvider>
+      <Header onOpenNewTransactionModal={handleOpenNewTransactionModal} />
       <Dashboard />
 
       <NewTransactionModal
@@ -34,7 +36,7 @@ export function App() {
       />
 
       <GlobalStyle />
-    </>
+    </TransactionsProvider>
   );
 }
 

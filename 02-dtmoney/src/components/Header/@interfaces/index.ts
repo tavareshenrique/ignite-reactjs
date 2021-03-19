@@ -1,3 +1,3 @@
 export interface IHeaderProps {
-  onOpenNewTrnsactionModal: () => void;
+  onOpenNewTransactionModal: () => void;
 }
