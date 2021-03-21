@@ -29,8 +29,8 @@
 ### Fotos
 
 <div>
-   <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/main/02-dtmoney/src/assets/previews/preview1.png" width="400px" />
-   <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/main/02-dtmoney/src/assets/previews/preview2.gif" width="400px" />
+   <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/main/02-dtmoney/src/assets/previews/preview1.png" width="600px" />
+   <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/main/02-dtmoney/src/assets/previews/preview2.gif" width="600px" />
 </div>
 
 # :computer: Tecnologias
