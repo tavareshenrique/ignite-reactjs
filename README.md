@@ -15,7 +15,10 @@
 # :pushpin: Conteúdo
 
 - [Projetos](#rocket-projetos)
-  - [Github Explorer](#github-explorer)
+  - [Chapter I](#one-chapter-i)
+    - [Github Explorer](#github-explorer)
+  - [Chapter II](#two-chapter-ii)
+    - [DT Money](#dt-money)
 - [Desafios](#atom_symbol-desafios)
   - [Chapter I](#one-chapter-i)
 - [Autores](#computer-autores)
@@ -23,11 +26,23 @@
 
 # :rocket: Projetos
 
-## Github Explorer
+## :one: Chapter I
+
+### Github Explorer
 
 <p align="center">
   <a href="https://github.com/tavareshenrique/ignite-reactjs/tree/main/01-github-explorer">
      <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/4c7f87360221a18410d3c19434bf6bef8afc3501/01-github-explorer/assets/img/logo.svg" alt="Github Explorer" width="280"/>
+   </a>
+</p>
+
+## :two: Chapter II
+
+### DT Money
+
+<p align="center">
+  <a href="https://github.com/tavareshenrique/ignite-reactjs/tree/main/02-dtmoney">
+     <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/a68fa5dbdd2952a73fcc6df5c88c1fc3c7cdd4b8/02-dtmoney/src/assets/logo.svg" alt="DT Money" width="280"/>
    </a>
 </p>
 
@@ -38,6 +53,12 @@
 [Desafio 1](https://github.com/tavareshenrique/ignite-reactjs-desafio-1): Desafio sobre os conceitos.
 
 [Desafio 2](https://github.com/tavareshenrique/ignite-reactjs-desafio-2): Desafio de componentização.
+
+## :two: Chapter II
+
+[Desafio 3](https://github.com/tavareshenrique/ignite-reactjs-desafio-3): Desafio utilizando hooks.
+
+[Desafio 4](https://github.com/tavareshenrique/ignite-reactjs-desafio-4): Desafio transaformadno JS em TS e Class em Functional Components.
 
 # :computer: Autores
 
