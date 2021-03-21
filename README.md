@@ -21,6 +21,7 @@
     - [DT Money](#dt-money)
 - [Desafios](#atom_symbol-desafios)
   - [Chapter I](#one-chapter-i)
+  - [Chapter II](#two-chapter-ii)
 - [Autores](#computer-autores)
 - [Licença](#closed_book-licença)
 
