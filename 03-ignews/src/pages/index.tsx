@@ -23,7 +23,9 @@ export default function Home({ product }: IHomeProps) {
 
       <main className={styles.contentContainer}>
         <section className={styles.hero}>
-          <span>👏 Hey, welcome</span>
+          <span>
+            <img src="/images/react.gif" alt="React Logo Animated" height={32} width={32} />  Hey, welcome
+          </span>
           <h1>
             News about the <span>React</span> world.
           </h1>
