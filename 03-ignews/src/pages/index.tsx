@@ -1,11 +1,11 @@
-import { GetStaticProps } from "next";
-import Head from "next/head";
+import { GetStaticProps } from 'next';
+import Head from 'next/head';
 
-import { stripe } from "../services/stripe";
+import { stripe } from '../services/stripe';
 
-import { SubscribeButton } from "../components/SubscribeButton";
+import { SubscribeButton } from '../components/SubscribeButton';
 
-import styles from "./home.module.scss";
+import styles from './home.module.scss';
 
 interface IHomeProps {
   product: {
@@ -24,7 +24,13 @@ export default function Home({ product }: IHomeProps) {
       <main className={styles.contentContainer}>
         <section className={styles.hero}>
           <span>
-            <img src="/images/react.gif" alt="React Logo Animated" height={32} width={32} />  Hey, welcome
+            <img
+              src="/images/react.gif"
+              alt="React Logo Animated"
+              height={32}
+              width={32}
+            />{' '}
+            Hey, welcome
           </span>
           <h1>
             News about the <span>React</span> world.
@@ -53,9 +59,9 @@ export const getStaticProps: GetStaticProps = async () => {
 
   const product = {
     priceId: price.id,
-    amount: new Intl.NumberFormat("en-US", {
-      style: "currency",
-      currency: "USD",
+    amount: new Intl.NumberFormat('en-US', {
+      style: 'currency',
+      currency: 'USD',
     }).format(price.unit_amount / 100),
   };
 
