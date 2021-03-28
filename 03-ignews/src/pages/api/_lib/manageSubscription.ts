@@ -35,7 +35,7 @@ export async function saveSubscription(
 
     await fauna.query(
       q.Replace(getSubscriptionRef, {
-        data: { subscriptionData },
+        data: subscriptionData,
       }),
     );
   }
