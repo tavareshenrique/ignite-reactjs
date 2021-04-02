@@ -10,7 +10,7 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-33CC95">
 </p>
 
-> <b>DT Money</b> é o segundo projeto criado no segundo módulo da trilha de React do Ignite da [Rocketseat](https://github.com/Rocketseat). No projeto você é capaz de cadastrar entradas e saidas e consegue visualizar a listagem desses cadastros.
+> <b>DT Money</b> é o segundo projeto criado no chapter 2 da trilha de React do Ignite da [Rocketseat](https://github.com/Rocketseat). No projeto você é capaz de cadastrar entradas e saidas e consegue visualizar a listagem desses cadastros.
 
 <div align="center">
   <sub>O <strong>DT Money</strong> foi desenvolvido com ❤︎ pelo
