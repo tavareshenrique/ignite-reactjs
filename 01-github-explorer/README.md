@@ -10,7 +10,7 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-FFA700">
 </p>
 
-> <b>Github Explorer</b> é o primeiro projeto criado no primeiro módulo da trilha de ReactJS do Ignite da [Rocketseat](https://github.com/Rocketseat). O projeto é para demonstrar a construção básica, do zero, de um projeto em React. No projeto é listado os repositórios da [Rocketseat](https://github.com/Rocketseat) utilizando a API do Github.
+> <b>Github Explorer</b> é o primeiro projeto criado no chapter 1 da trilha de ReactJS do Ignite da [Rocketseat](https://github.com/Rocketseat). O projeto é para demonstrar a construção básica, do zero, de um projeto em React. No projeto é listado os repositórios da [Rocketseat](https://github.com/Rocketseat) utilizando a API do Github.
 
 <div align="center">
   <sub>O <strong>Github Explorer</strong> foi desenvolvido com ❤︎ pelo
