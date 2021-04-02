@@ -47,6 +47,16 @@
    </a>
 </p>
 
+## :two: Chapter III
+
+### ig.news
+
+<p align="center">
+  <a href="https://github.com/tavareshenrique/ignite-reactjs/tree/main/03-ignews">
+     <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/aefbfbe096e8817899c9f2b731aef8e4f130d26e/03-ignews/public/images/logo.svg" alt="ig.news" width="280"/>
+   </a>
+</p>
+
 # :atom_symbol: Desafios
 
 ## :one: Chapter I
@@ -60,6 +70,10 @@
 [Desafio 3](https://github.com/tavareshenrique/ignite-reactjs-desafio-3): Desafio utilizando hooks.
 
 [Desafio 4](https://github.com/tavareshenrique/ignite-reactjs-desafio-4): Desafio transaformadno JS em TS e Class em Functional Components.
+
+## :three: Chapter III
+
+[Desafio 5](https://github.com/tavareshenrique/ignite-reactjs-desafio-5): Desafio criando um Blog utilizando NextJS e Prismic.
 
 # :computer: Autores
 
