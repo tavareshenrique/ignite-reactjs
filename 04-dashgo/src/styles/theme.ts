@@ -27,4 +27,11 @@ export const theme = extendTheme({
       },
     },
   },
+  components: {
+    Button: {
+      baseStyle: {
+        cursor: 'pointer',
+      },
+    },
+  },
 });
