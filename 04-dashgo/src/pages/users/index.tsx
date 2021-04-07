@@ -15,12 +15,15 @@ import {
 } from '@chakra-ui/react';
 import { RiAddLine, RiDeleteBinLine, RiPencilLine } from 'react-icons/ri';
 
+import { Header } from 'components/Header';
 import { Sidebar } from 'components/Sidebar';
 import { Pagination } from 'components/Pagination';
 
 export default function UsersList(): JSX.Element {
   return (
     <Box>
+      <Header />
+
       <Flex w="100%" my="6" maxWidth="1480" mx="auto" px="6">
         <Sidebar />
 
