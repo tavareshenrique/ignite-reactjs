@@ -6,51 +6,32 @@ import {
   RiInputMethodLine,
 } from 'react-icons/ri';
 
+import NavLink from './NavLink';
+import NavSection from './NavSection';
+
 export function Sidebar(): JSX.Element {
   return (
     <Box as="aside" w="64" mr="8">
       <Stack spacing="12" align="flex-start">
-        <Box>
-          <Text fontWeight="bold" color="gray.400" fontSize="small">
-            GERAL
-          </Text>
-          <Stack spacing="4" mt="8" align="stretch">
-            <Link href="/dashboard" display="flex" align="center">
-              <Icon as={RiDashboardLine} fontSize="20" />
-              <Text ml="4" fontWeight="medium">
-                Dashboard
-              </Text>
-            </Link>
+        <NavSection title="GERAL">
+          <NavLink href="/dashboard" icon={RiDashboardLine}>
+            Dashboard
+          </NavLink>
 
-            <Link href="/users" display="flex" align="center">
-              <Icon as={RiContactsLine} fontSize="20" />
-              <Text ml="4" fontWeight="medium">
-                Usuários
-              </Text>
-            </Link>
-          </Stack>
-        </Box>
+          <NavLink href="/users" icon={RiContactsLine}>
+            Usuários
+          </NavLink>
+        </NavSection>
 
-        <Box>
-          <Text fontWeight="bold" color="gray.400" fontSize="small">
-            AUTOMAÇÃO
-          </Text>
-          <Stack spacing="4" mt="8" align="stretch">
-            <Link href="/dashboard" display="flex" align="center">
-              <Icon as={RiInputMethodLine} fontSize="20" />
-              <Text ml="4" fontWeight="medium">
-                Formulários
-              </Text>
-            </Link>
+        <NavSection title="AUTOMAÇÃO">
+          <NavLink href="/forms" icon={RiInputMethodLine}>
+            Formulários
+          </NavLink>
 
-            <Link href="/users" display="flex" align="center">
-              <Icon as={RiGitMergeLine} fontSize="20" />
-              <Text ml="4" fontWeight="medium">
-                Automação
-              </Text>
-            </Link>
-          </Stack>
-        </Box>
+          <NavLink href="/automation" icon={RiGitMergeLine}>
+            Automação
+          </NavLink>
+        </NavSection>
       </Stack>
     </Box>
   );
