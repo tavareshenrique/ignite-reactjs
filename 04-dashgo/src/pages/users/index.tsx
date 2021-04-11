@@ -12,6 +12,7 @@ import {
   Th,
   Thead,
   Tr,
+  useBreakpointValue,
 } from '@chakra-ui/react';
 import { RiAddLine, RiDeleteBinLine, RiPencilLine } from 'react-icons/ri';
 
@@ -20,6 +21,11 @@ import { Sidebar } from 'components/Sidebar';
 import { Pagination } from 'components/Pagination';
 
 export default function UsersList(): JSX.Element {
+  const isWideVersion = useBreakpointValue({
+    base: false,
+    lg: true,
+  });
+
   return (
     <Box>
       <Header />
@@ -47,11 +53,11 @@ export default function UsersList(): JSX.Element {
           <Table colorScheme="whiteAlpha">
             <Thead>
               <Tr>
-                <Th px="6" color="gray.300" width="8">
+                <Th px={['4', '4', '6']} color="gray.300" width="8">
                   <Checkbox colorScheme="pink" />
                 </Th>
                 <Th>Usuário</Th>
-                <Th>Data de Cadastro</Th>
+                {isWideVersion && <Th>Data de Cadastro</Th>}
                 <Th width="40" />
               </Tr>
             </Thead>
@@ -68,22 +74,29 @@ export default function UsersList(): JSX.Element {
                     </Text>
                   </Box>
                 </Td>
-                <Td>07 de Abril, 2021</Td>
-                <Td>
-                  <Box
-                    display="flex"
-                    flexDir="row"
-                    alignItems="center"
-                    justifyContent="space-between"
-                  >
-                    <Button as="a" size="sm" fontSize="sm" colorScheme="purple">
-                      <Icon as={RiPencilLine} fontSize="20" />
-                    </Button>
-                    <Button as="a" size="sm" fontSize="sm" colorScheme="red">
-                      <Icon as={RiDeleteBinLine} fontSize="20" />
-                    </Button>
-                  </Box>
-                </Td>
+                {isWideVersion && <Td>07 de Abril, 2021</Td>}
+                {isWideVersion && (
+                  <Td>
+                    <Box
+                      display="flex"
+                      flexDir="row"
+                      alignItems="center"
+                      justifyContent="space-between"
+                    >
+                      <Button
+                        as="a"
+                        size="sm"
+                        fontSize="sm"
+                        colorScheme="purple"
+                      >
+                        <Icon as={RiPencilLine} fontSize="20" />
+                      </Button>
+                      <Button as="a" size="sm" fontSize="sm" colorScheme="red">
+                        <Icon as={RiDeleteBinLine} fontSize="20" />
+                      </Button>
+                    </Box>
+                  </Td>
+                )}
               </Tr>
             </Tbody>
           </Table>

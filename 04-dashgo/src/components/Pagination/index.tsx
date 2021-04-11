@@ -5,7 +5,7 @@ import { PaginationItem } from './PaginationItem';
 export function Pagination(): JSX.Element {
   return (
     <Stack
-      direction="row"
+      direction={['column', 'row']}
       spacing="6"
       mt="8"
       justify="space-between"
