@@ -47,13 +47,23 @@
    </a>
 </p>
 
-## :two: Chapter III
+## :three: Chapter III
 
 ### ig.news
 
 <p align="center">
   <a href="https://github.com/tavareshenrique/ignite-reactjs/tree/main/03-ignews">
      <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/aefbfbe096e8817899c9f2b731aef8e4f130d26e/03-ignews/public/images/logo.svg" alt="ig.news" width="280"/>
+   </a>
+</p>
+
+## :four: Chapter IV
+
+### dashgo
+
+<p align="center">
+  <a href="https://github.com/tavareshenrique/ignite-reactjs/tree/main/04-dashgo">
+     <img src="https://github.com/tavareshenrique/ignite-reactjs/blob/main/04-dashgo/src/assets/logo.png?raw=true" alt="ig.news" width="280"/>
    </a>
 </p>
 
@@ -74,6 +84,10 @@
 ## :three: Chapter III
 
 [Desafio 5](https://github.com/tavareshenrique/ignite-reactjs-desafio-5): Desafio criando um Blog utilizando NextJS e Prismic.
+
+## :four: Chapter IV
+
+[Desafio 6](https://github.com/tavareshenrique/ignite-reactjs-desafio-6): Desafio criando um Blog utilizando NextJS e Chakra UI.
 
 # :computer: Autores
 
