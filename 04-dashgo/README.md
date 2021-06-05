@@ -16,6 +16,7 @@
 
 - [Tecnologias](#computer-tecnologias)
 - [Executando](#construction_worker-executando)
+- [Desafios](#atom_symbol-desafios)
 - [Autores](#computer-autores)
 - [Licença](#closed_book-licença)
 
@@ -66,6 +67,10 @@ yarn start
 ```
 
 Acesse <http://localhost:3000> para ver o resultado.
+
+# :atom_symbol: Desafios
+
+[Desafio 6](https://github.com/tavareshenrique/ignite-reactjs-desafio-6): Desafio criando um Blog utilizando NextJS e Chakra UI.
 
 # :computer: Autores
 
