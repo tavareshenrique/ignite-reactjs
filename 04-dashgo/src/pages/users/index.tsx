@@ -29,7 +29,20 @@ export default function UsersList(): JSX.Element {
     const response = await fetch('http://localhost:3000/api/users');
     const dataResponse = await response.json();
 
-    return dataResponse;
+    const users = dataResponse.users.map(user => {
+      return {
+        id: user.id,
+        name: user.name,
+        email: user.name,
+        createdAt: new Date(user.createdAt).toLocaleDateString('pt-BR', {
+          day: '2-digit',
+          month: 'long',
+          year: 'numeric',
+        }),
+      };
+    });
+
+    return users;
   });
 
   const isWideVersion = useBreakpointValue({
@@ -85,47 +98,49 @@ export default function UsersList(): JSX.Element {
                   </Tr>
                 </Thead>
                 <Tbody>
-                  <Tr>
-                    <Td px="6">
-                      <Checkbox colorScheme="pink" />
-                    </Td>
-                    <Td>
-                      <Box>
-                        <Text fontWeight="bold">Henrique Tavares</Text>
-                        <Text fontSize="sm" color="gray.300">
-                          ihenrits@gmail.com
-                        </Text>
-                      </Box>
-                    </Td>
-                    {isWideVersion && <Td>07 de Abril, 2021</Td>}
-                    {isWideVersion && (
+                  {data.map(user => (
+                    <Tr key={user.id}>
+                      <Td px="6">
+                        <Checkbox colorScheme="pink" />
+                      </Td>
                       <Td>
-                        <Box
-                          display="flex"
-                          flexDir="row"
-                          alignItems="center"
-                          justifyContent="space-between"
-                        >
-                          <Button
-                            as="a"
-                            size="sm"
-                            fontSize="sm"
-                            colorScheme="purple"
-                          >
-                            <Icon as={RiPencilLine} fontSize="20" />
-                          </Button>
-                          <Button
-                            as="a"
-                            size="sm"
-                            fontSize="sm"
-                            colorScheme="red"
-                          >
-                            <Icon as={RiDeleteBinLine} fontSize="20" />
-                          </Button>
+                        <Box>
+                          <Text fontWeight="bold">{user.name}</Text>
+                          <Text fontSize="sm" color="gray.300">
+                            {user.email}
+                          </Text>
                         </Box>
                       </Td>
-                    )}
-                  </Tr>
+                      {isWideVersion && <Td>{user.createdAt}</Td>}
+                      {isWideVersion && (
+                        <Td>
+                          <Box
+                            display="flex"
+                            flexDir="row"
+                            alignItems="center"
+                            justifyContent="space-between"
+                          >
+                            <Button
+                              as="a"
+                              size="sm"
+                              fontSize="sm"
+                              colorScheme="purple"
+                            >
+                              <Icon as={RiPencilLine} fontSize="20" />
+                            </Button>
+                            <Button
+                              as="a"
+                              size="sm"
+                              fontSize="sm"
+                              colorScheme="red"
+                            >
+                              <Icon as={RiDeleteBinLine} fontSize="20" />
+                            </Button>
+                          </Box>
+                        </Td>
+                      )}
+                    </Tr>
+                  ))}
                 </Tbody>
               </Table>
 
