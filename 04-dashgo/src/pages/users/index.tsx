@@ -20,18 +20,22 @@ import { RiAddLine, RiDeleteBinLine, RiPencilLine } from 'react-icons/ri';
 import Link from 'next/link';
 import { useQuery } from 'react-query';
 
+import api from 'services/api';
+
 import { Header } from 'components/Header';
 import { Sidebar } from 'components/Sidebar';
 import { Pagination } from 'components/Pagination';
 
+import { UsersAPI } from './@interfaces';
+import { User } from './@types';
+
 export default function UsersList(): JSX.Element {
-  const { data, isLoading, error } = useQuery(
+  const { data, isLoading, isFetching, error } = useQuery(
     'users',
     async () => {
-      const response = await fetch('http://localhost:3000/api/users');
-      const dataResponse = await response.json();
+      const response = await api.get<UsersAPI>('users');
 
-      const users = dataResponse.users.map(user => {
+      const users = response.data.users.map(user => {
         return {
           id: user.id,
           name: user.name,
@@ -41,7 +45,7 @@ export default function UsersList(): JSX.Element {
             month: 'long',
             year: 'numeric',
           }),
-        };
+        } as User;
       });
 
       return users;
@@ -67,6 +71,9 @@ export default function UsersList(): JSX.Element {
           <Flex mb="8" justify="space-between" align="center">
             <Heading size="lg" fontWeight="normal">
               Usuários
+              {!isLoading && isFetching && (
+                <Spinner ml={4} size="sm" color="gray.500" />
+              )}
             </Heading>
 
             <Link href="/users/create" passHref>

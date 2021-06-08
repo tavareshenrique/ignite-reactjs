@@ -6,3 +6,10 @@ export type CreateUserFormData = {
   password: string;
   password_confirmation: string;
 };
+
+export type User = {
+  id: string;
+  name: string;
+  email: string;
+  createdAt: string;
+};
