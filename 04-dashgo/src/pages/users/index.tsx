@@ -18,42 +18,15 @@ import {
 } from '@chakra-ui/react';
 import { RiAddLine, RiDeleteBinLine, RiPencilLine } from 'react-icons/ri';
 import Link from 'next/link';
-import { useQuery } from 'react-query';
 
-import api from 'services/api';
+import { useUser } from 'services/hooks/useUsers';
 
 import { Header } from 'components/Header';
 import { Sidebar } from 'components/Sidebar';
 import { Pagination } from 'components/Pagination';
 
-import { UsersAPI } from './@interfaces';
-import { User } from './@types';
-
 export default function UsersList(): JSX.Element {
-  const { data, isLoading, isFetching, error } = useQuery(
-    'users',
-    async () => {
-      const response = await api.get<UsersAPI>('users');
-
-      const users = response.data.users.map(user => {
-        return {
-          id: user.id,
-          name: user.name,
-          email: user.name,
-          createdAt: new Date(user.createdAt).toLocaleDateString('pt-BR', {
-            day: '2-digit',
-            month: 'long',
-            year: 'numeric',
-          }),
-        } as User;
-      });
-
-      return users;
-    },
-    {
-      staleTime: 1000 * 5, // 5 seconds
-    },
-  );
+  const { data, isLoading, isFetching, error } = useUser();
 
   const isWideVersion = useBreakpointValue({
     base: false,
