@@ -5,6 +5,7 @@ import { IPaginationItemProps } from './@interfaces';
 export function PaginationItem({
   isCurrent = false,
   pageNumber,
+  onPageChange,
 }: IPaginationItemProps): JSX.Element {
   if (isCurrent) {
     return (
@@ -33,6 +34,7 @@ export function PaginationItem({
       _hover={{
         bg: 'gray.500',
       }}
+      onClick={() => onPageChange(pageNumber)}
     >
       {pageNumber}
     </Button>

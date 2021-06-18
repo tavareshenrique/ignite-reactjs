@@ -1,4 +1,6 @@
 /* eslint-disable no-nested-ternary */
+
+import { useState } from 'react';
 import {
   Box,
   Button,
@@ -26,7 +28,9 @@ import { Sidebar } from 'components/Sidebar';
 import { Pagination } from 'components/Pagination';
 
 export default function UsersList(): JSX.Element {
-  const { data, isLoading, isFetching, error } = useUser();
+  const [page, setPage] = useState(1);
+
+  const { data, isLoading, isFetching, error } = useUser(page);
 
   const isWideVersion = useBreakpointValue({
     base: false,
@@ -84,7 +88,7 @@ export default function UsersList(): JSX.Element {
                   </Tr>
                 </Thead>
                 <Tbody>
-                  {data.map(user => (
+                  {data.users.map(user => (
                     <Tr key={user.id}>
                       <Td px="6">
                         <Checkbox colorScheme="pink" />
@@ -131,9 +135,9 @@ export default function UsersList(): JSX.Element {
               </Table>
 
               <Pagination
-                totalCountOfRegisters={200}
-                currentPage={5}
-                onPageChange={() => {}}
+                totalCountOfRegisters={data.totalCount}
+                currentPage={page}
+                onPageChange={setPage}
               />
             </>
           )}
