@@ -23,25 +23,32 @@ import {
 import { RiAddLine, RiDeleteBinLine, RiPencilLine } from 'react-icons/ri';
 import NextLink from 'next/link';
 
+import api from 'services/api';
+
 import { useUser } from 'services/hooks/useUsers';
 import { queryClient } from 'services/queryClient';
 
 import { Header } from 'components/Header';
 import { Sidebar } from 'components/Sidebar';
 import { Pagination } from 'components/Pagination';
-import api from 'services/api';
 
 export default function UsersList(): JSX.Element {
   const [page, setPage] = useState(1);
 
   const { data, isLoading, isFetching, error } = useUser(page);
 
+  // const { data, isLoading, isFetching, error } = useUser(page, {
+  //   initialData: {
+  //     users,
+  //   },
+  // });
+
   const isWideVersion = useBreakpointValue({
     base: false,
     lg: true,
   });
 
-  async function handlePrefetchUser(userId: string): Promise<any> {
+  async function handlePrefetchUser(userId: string): Promise<void> {
     await queryClient.prefetchQuery(
       ['user', userId],
       async () => {
@@ -169,3 +176,13 @@ export default function UsersList(): JSX.Element {
     </Box>
   );
 }
+
+// export const getServerSideProps: GetServerSideProps = async () => {
+//   const { users } = await getUsers(1);
+
+//   return {
+//     props: {
+//       users,
+//     },
+//   };
+// };
