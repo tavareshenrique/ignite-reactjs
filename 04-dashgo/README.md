@@ -10,7 +10,7 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-01AEDA">
 </p>
 
-> **dashgo** é o quarto projeto criado no chapter 34 da trilha de React do Ignite da [Rocketseat](https://github.com/Rocketseat). O projeto consiste em desenvolver uma aplicação Dashboard utilizando Chakra UI.
+> **dashgo** é o quarto projeto criado no chapter 4 da trilha de React do Ignite da [Rocketseat](https://github.com/Rocketseat). O projeto consiste em desenvolver uma aplicação Dashboard utilizando Chakra UI.
 
 # :pushpin: Conteúdo
 
