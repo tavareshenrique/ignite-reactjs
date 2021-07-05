@@ -70,7 +70,7 @@
 
 <p align="center">
   <a href="https://github.com/tavareshenrique/ignite-reactjs/tree/main/04-dashgo">
-     <img src="https://github.com/tavareshenrique/ignite-reactjs/blob/main/04-dashgo/src/assets/logo.png?raw=true" alt="ig.news" width="280"/>
+     <img src="https://github.com/tavareshenrique/ignite-reactjs/blob/main/04-dashgo/src/assets/logo.png?raw=true" alt="ig.news" width="200"/>
    </a>
 </p>
 
@@ -78,7 +78,7 @@
 
 <p align="center">
   <a href="https://github.com/tavareshenrique/ignite-reactjs/tree/main/05-nextauth">
-     <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/main/05-nextauth/public/icon.png" alt="ig.news" width="280"/>
+     <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/main/05-nextauth/public/icon.png" alt="ig.news" width="200"/>
    </a>
 </p>
 
