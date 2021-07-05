@@ -44,7 +44,6 @@ cd 04-nextauth
 
 ```bash
 # Baixe as dependendências
-
 yarn
 ```
 
@@ -57,7 +56,7 @@ Acesse <http://localhost:3000> para ver o resultado.
 
 # :atom_symbol: Desafios
 
-[Desafio 6](https://github.com/tavareshenrique/ignite-reactjs-desafio-7): Desafio consiste em desenvolver uma aplicação para upload de imagem utilizando React, TypeScript, Chakra UI, ImgBB e FaunaDB.
+[Desafio 7](https://github.com/tavareshenrique/ignite-reactjs-desafio-7): Desafio consiste em desenvolver uma aplicação para upload de imagem utilizando React, TypeScript, Chakra UI, ImgBB e FaunaDB.
 
 # :computer: Autores
 
