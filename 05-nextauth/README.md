@@ -1,16 +1,16 @@
 <p align="center">
-   <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/main/04-dashgo/src/assets/logo.png" alt="WorldTrip" width="280"/>
+   <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/main/05-nextauth/public/icon.png" alt="NextAuth" width="160"/>
 </p>
 
 <p align="center">
    <a href="https://www.linkedin.com/in/tavareshenrique/">
-      <img alt="Henrique Tavares" src="https://img.shields.io/badge/-Henrique Tavares-01AEDA?style=flat&logo=Linkedin&logoColor=white" />
+      <img alt="Henrique Tavares" src="https://img.shields.io/badge/-Henrique Tavares-5E23A0?style=flat&logo=Linkedin&logoColor=white" />
    </a>
 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-01AEDA">
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-5E23A0">
 </p>
 
-> **dashgo** é o quarto projeto criado no chapter 34 da trilha de React do Ignite da [Rocketseat](https://github.com/Rocketseat). O projeto consiste em desenvolver uma aplicação Dashboard utilizando Chakra UI.
+> **nextauth** é o quinto projeto criado no chapter 4 da trilha de React do Ignite da [Rocketseat](https://github.com/Rocketseat). O projeto consiste em estudar as melhores práticas de autenticação no NextJS.
 
 # :pushpin: Conteúdo
 
@@ -20,18 +20,6 @@
 - [Autores](#computer-autores)
 - [Licença](#closed_book-licença)
 
-### Fotos
-
-<div>
-   <img src="https://github.com/tavareshenrique/ignite-reactjs/blob/main/04-dashgo/src/assets/previews/preview1.png?raw=true" width="400px" />
-
-   <img src="https://github.com/tavareshenrique/ignite-reactjs/blob/main/04-dashgo/src/assets/previews/preview2.png?raw=true" width="400px" />
-
-   <img src="https://github.com/tavareshenrique/ignite-reactjs/blob/main/04-dashgo/src/assets/previews/preview3.png?raw=true" width="400px" />
-
-   <img src="https://github.com/tavareshenrique/ignite-reactjs/blob/main/04-dashgo/src/assets/previews/preview4.png?raw=true" width="400px" />
-</div>
-
 # :computer: Tecnologias
 
 Este projeto foi feito utilizando as seguintes tecnologias:
@@ -39,9 +27,8 @@ Este projeto foi feito utilizando as seguintes tecnologias:
 - [React](https://reactjs.org/)
 - [Typescript](https://www.typescriptlang.org/)
 - [NextJS](https://nextjs.org/)
-- [Chakra UI](https://chakra-ui.com/)
-- [ESLint](https://eslint.org/)
-- [Prettier](https://prettier.io/)
+- [JWT Decode](https://github.com/auth0/jwt-decode#readme)
+- [Nookies](https://github.com/maticzav/nookies)
 
 # :construction_worker: Executando
 
@@ -52,7 +39,7 @@ git@github.com:tavareshenrique/ignite-reactjs.git
 
 ```bash
 # Acesse a pasta do projeto
-cd 04-dashgo
+cd 04-nextauth
 ```
 
 ```bash
@@ -70,7 +57,7 @@ Acesse <http://localhost:3000> para ver o resultado.
 
 # :atom_symbol: Desafios
 
-[Desafio 6](https://github.com/tavareshenrique/ignite-reactjs-desafio-6): Desafio criando um Blog utilizando NextJS e Chakra UI.
+[Desafio 6](https://github.com/tavareshenrique/ignite-reactjs-desafio-7): Desafio consiste em desenvolver uma aplicação para upload de imagem utilizando React, TypeScript, Chakra UI, ImgBB e FaunaDB.
 
 # :computer: Autores
 
