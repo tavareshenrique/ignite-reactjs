@@ -23,6 +23,7 @@
     - [ig.news](#ignews)
   - [Chapter IV](#four-chapter-iv)
     - [dashgo](#dashgo)
+    - [nextauth](#nextauth)
 - [Desafios](#atom_symbol-desafios)
   - [Chapter I](#one-chapter-i)
   - [Chapter II](#two-chapter-ii)
@@ -73,6 +74,14 @@
    </a>
 </p>
 
+### nextauth
+
+<p align="center">
+  <a href="https://github.com/tavareshenrique/ignite-reactjs/tree/main/05-nextauth">
+     <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/main/05-nextauth/public/icon.png" alt="ig.news" width="280"/>
+   </a>
+</p>
+
 # :atom_symbol: Desafios
 
 ## :one: Chapter I
@@ -94,6 +103,7 @@
 ## :four: Chapter IV
 
 [Desafio 6](https://github.com/tavareshenrique/ignite-reactjs-desafio-6): Desafio criando um Blog utilizando NextJS e Chakra UI.
+[Desafio 7](https://github.com/tavareshenrique/ignite-reactjs-desafio-7): Desafio consiste em desenvolver uma aplicação para upload de imagem utilizando React, TypeScript, Chakra UI, ImgBB e FaunaDB.
 
 # :computer: Autores
 
