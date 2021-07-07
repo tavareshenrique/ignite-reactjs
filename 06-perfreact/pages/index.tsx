@@ -36,3 +36,11 @@ export default function Home() {
     </div>
   )
 }
+
+/**
+ * - Fluxo de Renderização de um Componente (3 Steps):
+ * 
+ * 1. Cria uma nova versão do componente;
+ * 2. Comparar com a versão anterior;
+ * 3. Se houverem alterações, irá atualizar o que alterou;
+ */
