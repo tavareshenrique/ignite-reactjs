@@ -4,6 +4,7 @@ interface IProductItemProps {
   product: {
     id: number;
     price: number;
+    priceFormatted: string;
     title: string;
   }
 }
@@ -13,7 +14,7 @@ interface IProductItemProps {
 function ProductItemComponent({ product }: IProductItemProps) {
   return (
     <div>
-      {product.title} - <strong>{product.price}</strong>
+      {product.title} - <strong>{product.priceFormatted}</strong>
     </div>
   )
 }
