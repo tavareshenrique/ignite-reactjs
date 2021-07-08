@@ -24,6 +24,8 @@
   - [Chapter IV](#four-chapter-iv)
     - [dashgo](#dashgo)
     - [nextauth](#nextauth)
+  - [Chapter V](#five-chapter-v)
+    - [perfreact](#perfreact)
 - [Desafios](#atom_symbol-desafios)
   - [Chapter I](#one-chapter-i)
   - [Chapter II](#two-chapter-ii)
@@ -70,7 +72,7 @@
 
 <p align="center">
   <a href="https://github.com/tavareshenrique/ignite-reactjs/tree/main/04-dashgo">
-     <img src="https://github.com/tavareshenrique/ignite-reactjs/blob/main/04-dashgo/src/assets/logo.png?raw=true" alt="ig.news" width="200"/>
+     <img src="https://github.com/tavareshenrique/ignite-reactjs/blob/main/04-dashgo/src/assets/logo.png?raw=true" alt="dashgo" width="200"/>
    </a>
 </p>
 
@@ -78,7 +80,17 @@
 
 <p align="center">
   <a href="https://github.com/tavareshenrique/ignite-reactjs/tree/main/05-nextauth">
-     <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/main/05-nextauth/public/icon.png" alt="ig.news" width="200"/>
+     <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/main/05-nextauth/public/icon.png" alt="nextauth" width="200"/>
+   </a>
+</p>
+
+## :five: Chapter V
+
+### perfreact
+
+<p align="center">
+  <a href="https://github.com/tavareshenrique/ignite-reactjs/tree/main/06-perfreact">
+     <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/main/06-perfreact/src/assets/previews/appImg.png" alt="perfreact" width="280"/>
    </a>
 </p>
 
