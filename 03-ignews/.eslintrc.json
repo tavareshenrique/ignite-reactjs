@@ -39,6 +39,11 @@
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-namespace": "off",
     "import/prefer-default-export": "off",
+    "jsx-a11y/anchor-is-valid": [ "error", {
+      "components": [ "Link" ],
+      "specialLink": [ "hrefLeft", "hrefRight" ],
+      "aspects": [ "invalidHref", "preferButton" ]
+    }],
     "import/extensions": [
       "error",
       "ignorePackages",
