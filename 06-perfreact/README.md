@@ -1,34 +1,97 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+   <img src="https://raw.githubusercontent.com/tavareshenrique/ignite-reactjs/main/06-perfreact/src/assets/previews/appImg.png" alt="NextAuth" width="480"/>
+</p>
 
-## Getting Started
+<p align="center">
+   <a href="https://www.linkedin.com/in/tavareshenrique/">
+      <img alt="Henrique Tavares" src="https://img.shields.io/badge/-Henrique Tavares-6CDFFC?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
 
-First, run the development server:
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-6CDFFC">
+</p>
+
+> **reactperfc** é o sexto projeto criado no chapter 5 da trilha de React do Ignite da [Rocketseat](https://github.com/Rocketseat). O projeto consiste em estudar as melhores maneiras de **aplicar performance no React**. Como por exemplo, como utilizar: **ReactDevTools**, **Memo**, **useMemo**, **useCallback**, **Formatação de Dados**, **Dynamic Import do NextJS**, **Virtualização** e **Bundle Analyzer**
+
+# :pushpin: Conteúdo
+
+- [Tecnologias](#computer-tecnologias)
+- [Executando](#construction_worker-executando)
+- [Autores](#computer-autores)
+- [Licença](#closed_book-licença)
+
+# :computer: Tecnologias
+
+Este projeto foi feito utilizando as seguintes tecnologias:
+
+- [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [NextJS](https://nextjs.org/)
+- [JSON Server](https://github.com/typicode/json-server)
+- [React Virtualized](https://github.com/bvaughn/react-virtualized)
+- [Next/Bundle-Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+
+# :construction_worker: Executando
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone o Repositório
+git@github.com:tavareshenrique/ignite-reactjs.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+# Acesse a pasta do projeto
+cd 06-nextauth
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+# Baixe as dependendências
+yarn
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+```bash
+# Inicie o Server
+yarn server
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+# Execute o projeto
+yarn start
+```
 
-## Learn More
+Acesse <http://localhost:3000> para ver o resultado.
 
-To learn more about Next.js, take a look at the following resources:
+# :computer: Autores
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<table>
+  <tr>
+    <td align="center">
+      <a href="http://github.com/tavareshenrique/">
+        <img src="https://avatars1.githubusercontent.com/u/27022914?v=4" width="100px;" alt="Henrique Tavares"/>
+        <br />
+        <sub>
+          <b>Henrique Tavares</b>
+        </sub>
+       </a>
+       <br />
+       <a href="https://www.linkedin.com/in/tavareshenrique/" title="Linkedin">@tavareshenrique</a>
+       <br />
+       <a href="https://github.com/tavareshenrique/fastfeet-api/commits?author=tavareshenrique" title="Code">💻</a>
+    </td>
+    <td align="center">
+      <a href="http://github.com/tavareshenrique/">
+        <img src="https://avatars0.githubusercontent.com/u/28929274?s=200&v=4" width="100px;" alt="Henrique Tavares"/>
+        <br />
+        <sub>
+          <b>Rocketseat</b>
+        </sub>
+       </a>
+       <br />
+       <a href="https://github.com/Rocketseat" title="Linkedin">@Rocketseat</a>
+       <br />
+       <a href="https://github.com/tavareshenrique/fastfeet-api/commits?author=tavareshenrique" title="Creators">🚀</a>
+    </td>
+  </tr>
+</table>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# :closed_book: Licença
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto está sob a licença [MIT](./LICENSE).
