@@ -10,7 +10,7 @@
   <img alt="License" src="https://img.shields.io/badge/license-MIT-6CDFFC">
 </p>
 
-> **reactperfc** é o sexto projeto criado no chapter 5 da trilha de React do Ignite da [Rocketseat](https://github.com/Rocketseat). O projeto consiste em estudar as melhores maneiras de **aplicar performance no React**. Como por exemplo, como utilizar: **ReactDevTools**, **Memo**, **useMemo**, **useCallback**, **Formatação de Dados**, **Dynamic Import do NextJS**, **Virtualização** e **Bundle Analyzer**
+> **perfreact** é o sexto projeto criado no chapter 5 da trilha de React do Ignite da [Rocketseat](https://github.com/Rocketseat). O projeto consiste em estudar as melhores maneiras de **aplicar performance no React**. Como por exemplo, como utilizar: **ReactDevTools**, **Memo**, **useMemo**, **useCallback**, **Formatação de Dados**, **Dynamic Import do NextJS**, **Virtualização** e **Bundle Analyzer**
 
 # :pushpin: Conteúdo
 
@@ -39,7 +39,7 @@ git@github.com:tavareshenrique/ignite-reactjs.git
 
 ```bash
 # Acesse a pasta do projeto
-cd 06-nextauth
+cd 06-perfreact
 ```
 
 ```bash
