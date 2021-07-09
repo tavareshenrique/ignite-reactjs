@@ -12,7 +12,7 @@ jest.mock('next-auth/client', () => {
 });
 jest.mock('../../services/stripe');
 
-describe('Home', () => {
+describe('Home page', () => {
   it('renders correctly', async () => {
     render(<Home product={{ priceId: 'fake-price-id', amount: 'R$ 10,00' }} />);
 
