@@ -1,15 +1,13 @@
-import { signin, useSession } from 'next-auth/client';
+import { signIn, useSession } from 'next-auth/client';
 import { useRouter } from 'next/router';
 
 import api from '../../services/api';
 import { getStripeJs } from '../../services/stripe-js';
 import { ISession } from '../../pages/api/auth/[...nextauth]';
 
-import { ISubscribeButtonProps } from './@interfaces';
-
 import styles from './styles.module.scss';
 
-export function SubscribeButton({ priceId }: ISubscribeButtonProps) {
+export function SubscribeButton() {
   3;
 
   const [session] = useSession();
@@ -19,7 +17,7 @@ export function SubscribeButton({ priceId }: ISubscribeButtonProps) {
     const nextSession = session as ISession;
 
     if (!nextSession) {
-      signin('github');
+      signIn('github');
       return;
     }
 
