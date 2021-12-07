@@ -115,6 +115,7 @@
 ## :four: Chapter IV
 
 [Desafio 6](https://github.com/tavareshenrique/ignite-reactjs-desafio-6): Desafio criando um Blog utilizando NextJS e Chakra UI.
+
 [Desafio 7](https://github.com/tavareshenrique/ignite-reactjs-desafio-7): Desafio consiste em desenvolver uma aplicação para upload de imagem utilizando React, TypeScript, Chakra UI, ImgBB e FaunaDB.
 
 # :computer: Autores
